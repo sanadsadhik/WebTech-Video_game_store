@@ -1,0 +1,77 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url(png2.jpg);
+}
+
+.button1 {
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding-top: 10px 0px;
+    -webkit-transition-duration: 0.4s;
+    margin-left: 40%;
+}
+
+::placeholder {
+    color: white;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.textbox {
+    border-bottom-color: forestgreen;
+    border-block-width: 10px;
+}
+
+.side a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 1149px;
+}
+
+tr {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: black!important;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background: black!important;
+    color: white;
+}
+
+#in1 {
+    padding: 10px 0px;
+}
+
+#in2 {
+    padding: 10px 0px;
+}
